@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: url(https://c0.wallpaperflare.com/preview/89/272/1016/school-young-adult-education-graduation.jpg) no-repeat center center/cover;
     color: #333;
 }
 
@@ -35,8 +35,7 @@ nav ul li a {
 }
 
 .hero {
-    background: url('your-hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #333333;
     padding: 4rem 0;
     text-align: center;
 }
@@ -109,4 +108,15 @@ footer {
 .hero-content h2,
 .hero-content p{
     color: #808080;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.title{
+    padding : 5px;
+    margin-left:5px;
+    font-size: larger;
+    margin-top:6px
 }
